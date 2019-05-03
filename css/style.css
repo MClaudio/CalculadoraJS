@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+body section{
+    margin-top:5em;
+}
+body section .content{
+    width: 25em;
+    background-color: #E6E6E6;
+    padding: 5px;
+    border-radius: 5px;
+}
+body section .content .display{
+    width: 100%;
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+body section .content .display h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+body section .content .result {
+    background-color: #E6E6E6;
+    width: 100%;
+    padding: 0px 5px;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+body section .content .button table{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+body section .content .button input[type="button"]{
+    width: 5em;
+    padding: 15px 5px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    transition: all ease .5s; 
+}
+body section .content .button #btn0{
+    width: 10.4em;
+}
+body section .content .button #btnIgual{
+    height: 6.5em;
+}
+body section .content .button .number{
+    background-color: #FAFAFA; 
+}
+body section .content .button .number:hover{
+    background-color: #D6D6D6;
+}
+body section .content .button .atrib{
+    background-color: #F0F0F0;
+}
+body section .content .button .atrib:hover{
+    background-color: #0077D7;
+}
+body section .content .button .atrib:active{
+    background-color: #AFDCFF;
+}
+body section .content .button .number:active{
+    background-color: #F0F0F0;
+}
+
