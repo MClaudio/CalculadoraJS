@@ -5,7 +5,6 @@ function dis(valor) {
         document.getElementById("result").value = num.substring(1, num.length)
     }
     document.getElementById("result").value += valor
-
 }
 function clc() {
     document.getElementById("result").value = 0
@@ -19,7 +18,7 @@ function calculo() {
     let op = document.getElementById("result").value
     document.getElementById("result").value = eval(op)
 }
-function neg(valor) {
+function neg() {
     let num = document.getElementById("result").value
     if (num.substring(0, 1) == '-') {
         document.getElementById("result").value = num.substring(1, num.length)
